@@ -1,0 +1,60 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=0.6,user-scalable=no" charset="UTF-8">
+    <title>福州八中第54届田径运动会</title>
+    <link rel="stylesheet" type="text/css" href="../../style.css">
+</head>
+
+<style>
+body {
+    margin: 0;
+}
+#_head {
+    /* box-shadow: 2px 2px 5px 0 #77b2ff; */
+}
+</style>
+
+<script src="./md.js"></script>
+
+<body>
+    <div id="_head">
+        <img src="../../img/logo.png" class="png" width="130" height="130">
+        <span class="title_1">福州八中第54届田径运动会</span>
+        <span class="title_2">赛事信息综合平台</span>
+    </div>
+
+    <div id="_body">
+        <br />
+        <br />
+
+        <script src="./md.js"></script>
+        <code class="text" markdown></code>
+
+        <script>
+            function GetRequest() {
+                var url = location.search;
+                var theRequest = new Object();
+                if (url.indexOf("?") != -1) {
+                    var str = url.substr(1);
+                    strs = str.split("&");
+                    for(var i = 0; i < strs.length; i++) {
+                        theRequest[strs[i].split("=")[0]] = unescape(strs[i].split("=")[1]);
+                    }
+                }
+                return theRequest;
+            }
+            const str = '\<script src=\"./data/' + GetRequest().id.substr(0, 2) + "/" + GetRequest().id + '.js\"\>\</script\>';
+            document.write(str);
+        </script>
+
+        <div id="coppyright">
+            <p>Copyright © 2023 by 福州八中学生会技术部</p>
+            <br />
+            <br />
+        </div>
+    </div>
+    
+</body>
+
+</html>

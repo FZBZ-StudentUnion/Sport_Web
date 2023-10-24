@@ -1,0 +1,74 @@
+@charset "utf-8";
+@font-face {
+	font-family: YouSheBiaoTiHei-2;
+	src: url("YouSheBiaoTiHei-2.ttf");
+}
+.st
+{
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 3%;
+	top : 3.6%;
+	width : 20%;
+	height : auto;
+}
+.bg
+{
+	background: #883561;
+	background: rgba(136, 53, 97, 1);
+	position: absolute;
+	left: 0%;
+	top: 0%;
+	width: 100%;
+	height: 18%;
+}
+.image3
+{
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 1.2%;
+	top : 20%;
+	width : 36.3%;
+	height : auto;
+}
+.image1
+{
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 32%;
+	top : 20%;
+	width : 36.3%;
+	height : auto;
+}
+.image4
+{
+	background-repeat : no-repeat;
+	position : absolute ;
+	right : 1.2%;
+	top : 20%;
+	width : 36.3%;
+	height : auto;
+}
+.image2
+{
+	background-repeat : no-repeat;
+	opacity : 1.0;
+	position : absolute ;
+	z-index: 1;
+	left : 19.5%;
+	bottom : 25px;
+	width : 60%;
+	height : auto;
+	filter: alpha(opacity=30) progid:DXImageTransform.Microsoft.Alpha(opacity=30) ;
+}
+.image
+{
+	background-repeat : no-repeat;
+	opacity : 0.5;
+	position : absolute ;
+	right : 2%;
+	top : 1.5%;
+	width : 8.9%;
+	height : auto;
+	filter: alpha(opacity=50) progid:DXImageTransform.Microsoft.Alpha(opacity=50) ;
+}

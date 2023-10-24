@@ -1,0 +1,101 @@
+<script>
+    function show() {
+        var date = new Date(); //日期对象
+        var now = "";
+        now = now + ((date.getHours() < 10) ? "0" : "") + date.getHours() + ":";
+        now = now + ((date.getMinutes() < 10) ? "0" : "") + date.getMinutes();
+        now = now + ((date.getHours() < 12) ? "AM" : "PM");
+        document.getElementById("nowDiv").innerHTML = now; //div的html是now这个字符串
+        setTimeout("show()", 1000); //设置过1000毫秒就是1秒，调用show方法
+    }
+</script>
+
+<style>
+    thead {
+        display: none;
+    }
+    a {
+        color: black;
+        text-decoration: none;
+    }
+</style>
+<style>
+    body {
+        margin: 0;
+    }
+    #_head {
+        /* box-shadow: 2px 2px 5px 0 #77b2ff; */
+    }
+</style>
+<script src="./md.js"></script>
+
+
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=0.6,user-scalable=no" charset="UTF-8">
+    <title>福州八中第54届田径运动会</title>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+</head>
+
+<body onload="show()">
+    <div id="_head">
+        <img src="../img/logo.png" class="png" width="130" height="130">
+        <span class="title_1 zi">福州八中第54届田径运动会</span>
+        <span class="title_2 zi">赛事信息综合平台</span>
+    </div>
+    <div id="_body">
+        <br />
+        <br />
+        <div id="first_part">
+            <div class="time">
+                <div class="txta zi"><span id="clock">现在时刻</span></div>
+                <span class="txtb zi"><div id="nowDiv"></div></span>
+            </div>
+            <a href="../book.pdf"><div class="all_table">
+                <span class="txta zi">点击下载</span>
+                <span class="txtb zi">秩序册</span>
+            </div></a>
+        </div>
+
+        <br />
+        <br />
+
+        <div id="date">
+            <a class="txtb" href="../day2/menu.html"><span class="txta zi">后一天→</span></a>
+            <span class="txta zi">10月25日 比赛项目</span>
+        </div>
+
+        <br />
+        <br />
+        <div style="font-size: 50px;text-align: center;font-family: 楷体;">径赛</div>
+        <br />
+        <table class="zi">
+            <colgroup>
+                <col class="col_grade" />
+                <col class="col1" />
+                <col class="col2" />
+                <col class="col3" />
+            </colgroup>
+
+            <code class="text" markdown></code>
+        </table>
+            <br>
+            <div style="font-size: 50px;text-align: center;font-family: 楷体;">田赛</div>
+            <br>
+            <table class="zi">
+                <colgroup>
+                    <col class="col_grade" />
+                    <col class="col1" />
+                    <col class="col2" />
+                    <col class="col3" />
+                </colgroup>
+
+            <code class="text" markdown></code>
+        </table>
+
+        <div id="coppyright">
+            <p>Copyright © 2023 by 福州八中学生会技术部</p>
+        </div>
+    </div>
+    
+    <script src="./data_day1.js"></script>
+</body>
