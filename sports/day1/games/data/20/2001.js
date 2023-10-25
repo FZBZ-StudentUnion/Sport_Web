@@ -3,7 +3,7 @@ var m = document.querySelectorAll('code[markdown]');
 var namelist = '\
 <div id="_title">\n\
     <span class="txta">初一年段</span>\n\
-    <span class="txtb">女子组  800  决赛</span>\n\
+    <span class="txtb">男子组  100M  决赛</span>\n\
     <a href="../menu.html"><button class="home">首页</button></a>\n\
 </div>\n\
 \n\
