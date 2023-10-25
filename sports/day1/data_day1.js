@@ -47,8 +47,8 @@ var tiansai = '\
 | a | a | a | a |\n\
 | - | - | - | - |\n\
 | <strong style=\"font-family: 黑体;\">上午</strong> | | | |\n\
-| 高一 | 男子组 跳高 | 09:30 | [查看详情](./games/games.html?id=1101) |\n\
-| 初一 | 男子组 立定跳远 | 09:30 | [查看详情](./games/games.html?id=1103) |\n\
+| 高一 | 男子组 跳高 决赛 | 09:30 | [查看详情](./games/games.html?id=1101) |\n\
+| 初一 | 男子组 立定跳远 决赛 | 09:30 | [查看详情](./games/games.html?id=1103) |\n\
 | 高二 | 男子组 跳远 决赛 | 09:30 | [查看详情](./games/games.html?id=1105) |\n\
 | 高一 | 男子组 铅球 决赛 | 09:30 | [查看详情](./games/games.html?id=1112) |\n\
 | 初二 | 男子组 实心球 决赛 | 09:30 | [查看详情](./games/games.html?id=1107) |\n\

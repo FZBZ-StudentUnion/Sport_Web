@@ -7,6 +7,8 @@ var namelist = '\
     <a href="../menu.html"><button class="home">首页</button></a>\n\
 </div>\n\
 \n\
+&nbsp;\n\
+\n\
 | 赛道 | 姓名 | 数据 | 备注 |\n\
 | - | - | - | - |\n\
 | 1 | 李韪龙 | - | 初一4班 |\n\
@@ -17,8 +19,6 @@ var namelist = '\
 | 6 | 洪浩添 | - | 初一10班 |\n\
 | 7 | 卓思承 | - | 初一11班 |\n\
 | 8 | 郭雨洋 | - | 初一1班 |\n\
-&nbsp;\n\
-\n\
 ';
 
 m[0].innerHTML = namelist;
