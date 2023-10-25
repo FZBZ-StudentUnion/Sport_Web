@@ -25,7 +25,7 @@ body {
         float: left;
         position: fixed;
         left: 36px;
-        font-size: 32px;
+        font-size: 26px;
         top: 75px;
         color: #ffffff;
         font-weight: normal;
@@ -235,6 +235,11 @@ td {
     font-weight: normal;
 }
 .title_1 .title_2 .txta .txtb .home {
+    font-family: 'AlibabaPuHuiTi-2-65-Medium';
+    font-weight: normal;
+}
+
+#_head {
     font-family: 'AlibabaPuHuiTi-2-65-Medium';
     font-weight: normal;
 }
