@@ -3,7 +3,7 @@ var m = document.querySelectorAll('code[markdown]');
 var jinsai = '\
 | a | a | a | a |\n\
 | - | - | - | - |\n\
-| <strong style=\"font-family: 黑体;\">上午</strong> | | | |\n\
+| <strong style=\"font-family: simhei;\">上午</strong> | | | |\n\
 | 初一 | 男子组 100M 预赛 | 09:30 | [查看详情](./games/games.html?id=1001) |\n\
 | 初一 | 女子组 100M 预赛 | 09:36 | [查看详情](./games/games.html?id=1002) |\n\
 | 初二 | 男子组 100M 预赛 | 09:42 | [查看详情](./games/games.html?id=1003) |\n\
@@ -16,7 +16,7 @@ var jinsai = '\
 | 高二 | 女子组 200M 预赛 | 10:24 | [查看详情](./games/games.html?id=1010) |\n\
 | 高三 | 男子组 200M 预赛 | 10:28 | [查看详情](./games/games.html?id=1011) |\n\
 | 高三 | 女子组 200M 预赛 | 10:36 | [查看详情](./games/games.html?id=1012) |\n\
-| <strong style=\"font-family: 黑体;\">下午</strong> | | | |\n\
+| <strong style=\"font-family: simhei;\">下午</strong> | | | |\n\
 | 初一 | 男子组 100M 决赛 | 14:00 | [查看详情](./games/games.html?id=2001) |\n\
 | 初一 | 女子组 100M 决赛 | 14:02 | [查看详情](./games/games.html?id=2002) |\n\
 | 初二 | 男子组 100M 决赛 | 14:04 | [查看详情](./games/games.html?id=2003) |\n\
@@ -46,7 +46,7 @@ var jinsai = '\
 var tiansai = '\
 | a | a | a | a |\n\
 | - | - | - | - |\n\
-| <strong style=\"font-family: 黑体;\">上午</strong> | | | |\n\
+| <strong style=\"font-family: simhei;\">上午</strong> | | | |\n\
 | 高一 | 男子组 跳高 决赛 | 09:30 | [查看详情](./games/games.html?id=1101) |\n\
 | 初一 | 男子组 立定跳远 决赛 | 09:30 | [查看详情](./games/games.html?id=1103) |\n\
 | 高二 | 男子组 跳远 决赛 | 09:30 | [查看详情](./games/games.html?id=1105) |\n\
@@ -59,7 +59,7 @@ var tiansai = '\
 | 高二 | 女子组 跳远 决赛 | 10:30 | [查看详情](./games/games.html?id=1106) |\n\
 | 初二 | 女子组 实心球 决赛 | 10:30 | [查看详情](./games/games.html?id=1108) |\n\
 | 初三 | 女子组 一分钟跳绳 决赛 | 10:30 | [查看详情](./games/games.html?id=1110) |\n\
-| <strong style=\"font-family: 黑体;\">下午</strong> | | | |\n\
+| <strong style=\"font-family: simhei;\">下午</strong> | | | |\n\
 | 高二 | 女子组 跳高 决赛 | 14:00 | [查看详情](./games/games.html?id=2101) |\n\
 | 初二 | 女子组 立定跳远 决赛 | 14:00 | [查看详情](./games/games.html?id=2102) |\n\
 | 高三 | 男子组 跳远 决赛 | 14:00 | [查看详情](./games/games.html?id=2103) |\n\

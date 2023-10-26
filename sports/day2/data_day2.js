@@ -3,7 +3,7 @@ var m = document.querySelectorAll('code[markdown]');
 var jinsai = '\
 | a | a | a | a |\n\
 | - | - | - | - |\n\
-| <strong style=\"font-family: 黑体;\">上午</strong> | | | |\n\
+| <strong style=\"font-family: simhei;\">上午</strong> | | | |\n\
 | 高一 | 男子组 100M 预赛 | 08:00 | [查看详情](./games/games.html?id=3001) |\n\
 | 高一 | 女子组 100M 预赛 | 08:08 | [查看详情](./games/games.html?id=3002) |\n\
 | 高二 | 男子组 100M 预赛 | 08:12 | [查看详情](./games/games.html?id=3003) |\n\
@@ -28,7 +28,7 @@ var jinsai = '\
 | 初二 | 女子组 4X100M接力 决赛 | 11:18 | [查看详情](./games/games.html?id=3022) |\n\
 | 初三 | 男子组 4X100M接力 决赛 | 11:28 | [查看详情](./games/games.html?id=3023) |\n\
 | 初三 | 女子组 4X100M接力 决赛 | 11:38 | [查看详情](./games/games.html?id=3024) |\n\
-| <strong style=\"font-family: 黑体;\">下午</strong> | | | |\n\
+| <strong style=\"font-family: simhei;\">下午</strong> | | | |\n\
 | 初一 | 男子组 50M 决赛 | 14:00 | [查看详情](./games/games.html?id=4001) |\n\
 | 初一 | 女子组 50M 决赛 | 14:01 | [查看详情](./games/games.html?id=4002) |\n\
 | 初二 | 男子组 50M 决赛 | 14:02 | [查看详情](./games/games.html?id=4003) |\n\
@@ -58,7 +58,7 @@ var jinsai = '\
 var tiansai = '\
 | a | a | a | a |\n\
 | - | - | - | - |\n\
-| <strong style=\"font-family: 黑体;\">上午</strong> | | | |\n\
+| <strong style=\"font-family: simhei;\">上午</strong> | | | |\n\
 | 高三 | 男子组 跳高 决赛 | 08:00 | [查看详情](./games/games.html?id=3101) |\n\
 | 初三 | 女子组 立定跳远 决赛 | 08:00 | [查看详情](./games/games.html?id=3105) |\n\
 | 高一 | 男子组 跳远 决赛 | 08:00 | [查看详情](./games/games.html?id=3103) |\n\
@@ -72,7 +72,7 @@ var tiansai = '\
 | 高三 | 女子组 铅球 决赛 | 09:30 | [查看详情](./games/games.html?id=3108) |\n\
 | 初二 | 女子组 一分钟跳绳 决赛 | 09:30 | [查看详情](./games/games.html?id=3111) |\n\
 | 高二 | 女子组 三级跳远 决赛 | 09:30 | [查看详情](./games/games.html?id=3113) |\n\
-| <strong style=\"font-family: 黑体;\">下午</strong> | | | |\n\
+| <strong style=\"font-family: simhei;\">下午</strong> | | | |\n\
 | 高二 | 男子组 跳高 决赛 | 14:00 | [查看详情](./games/games.html?id=4102) |\n\
 | 初二 | 男子组 立定跳远 决赛 | 14:00 | [查看详情](./games/games.html?id=4103) |\n\
 | 高一 | 女子组 铅球 决赛 | 14:00 | [查看详情](./games/games.html?id=4101) |\n\

@@ -243,6 +243,16 @@ td {
 	src: url("../stylesheets/AlibabaPuHuiTi-2-65-Medium.ttf");
 }
 
+@font-face {
+	font-family: simhei;
+	src: url("../stylesheets/simhei.ttf");
+}
+
+@font-face {
+	font-family: simkai;
+	src: url("../stylesheets/simkai.ttf");
+}
+
 #coppyright {
     position: relative;
     top: 60px;
@@ -293,6 +303,6 @@ table {
     padding: 0px 20px 0px 20px;
     background-color: #fafbfd;
     border-radius: 10px 10px 10px 10px;
-    font-family: '楷体';
+    font-family: 'simkai';
     font-weight: normal;
 }
