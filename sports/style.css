@@ -89,9 +89,8 @@ body {
     }
 
 #second_part{
-    height: 20px !important;
+    height: 40px !important;
     width: 100%;
-    padding: 10px;
     background-color: #f9f5f7;
     position: relative;
     border-radius: 10px 10px 10px 10px;
