@@ -88,6 +88,25 @@ body {
         top: 8px;
     }
 
+#second_part{
+    height: 20px !important;
+    width: 100%;
+    padding: 10px;
+    background-color: #f9f5f7;
+    position: relative;
+    border-radius: 10px 10px 10px 10px;
+    font-family: 'AlibabaPuHuiTi-2-65-Medium';
+    color: #883561;
+    justify-content: center;
+    display: flex !important;
+    align-content: center;
+    position: relative;
+    top: 12px;
+    font-size: 20px;
+    font-weight: bold;
+    align-items: center;
+}
+
 #date {
     background-color: #fafbfd;
     border-radius: 10px 10px 10px 10px;
